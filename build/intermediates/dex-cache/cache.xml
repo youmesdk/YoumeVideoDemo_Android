@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/PersonalData/Caches/gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/26.1.0/814258103cf26a15fcc26ecce35f5b7d24b73f8/support-annotations-26.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0814258103cf26a15fcc26ecce35f5b7d24b73f8">
+        <dex dex="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/build/intermediates/pre-dexed/debug/support-annotations-26.1.0_d5b20e207afa7a170143b1c169eb82ea0399bb1c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/PersonalData/Caches/android/build-cache/73a70203d766cd1534985e9fb256cfd6f57b9fa6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="40392f30a601db5675cdf18192aab013d6fee6ec">
+        <dex dex="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/build/intermediates/pre-dexed/debug/classes_66410ef7e6889a3d76707b60af8ed7d9199570f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/PersonalData/Caches/android/build-cache/dfccfd7ca9f4ace53ea0e264bedb9875efdc918e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f97cf85b0fe70d37a705111dafa6b1b418ea1650">
+        <dex dex="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/build/intermediates/pre-dexed/debug/classes_79befc3d6aacaf1db6ca5ec3389862017507ba06.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/PersonalData/Caches/android/build-cache/efcacec7586aa2cbe6355850722866e868faab82/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b62fdc4cfef174c1e456014195c83fa7de7dc041">
+        <dex dex="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/build/intermediates/pre-dexed/debug/classes_a098a116ba1763ae8c495fdf5a75874c243ac81c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/PersonalData/Caches/gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.0.0/e414a4cb28434e25c4f6aa71426eb20cf4874ae9/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e414a4cb28434e25c4f6aa71426eb20cf4874ae9">
+        <dex dex="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/build/intermediates/pre-dexed/debug/common-1.0.0_e6a947d624fe424630ae9dd8beee828678b82337.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/PersonalData/Caches/android/build-cache/0a60bf03d4e7af8ab9190ec649e43a3b33e588b6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b12cd9c87c3dfb012a911b6e38d2444ed0a65e1f">
+        <dex dex="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/build/intermediates/pre-dexed/debug/classes_68d2a371fe2ab9ca90496d1fbf5ba4f28feb38da.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/bugly_so/bugly_crash_release.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d26ab01651bb5b5c149274c1176ba322136bbc5c">
+        <dex dex="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/build/intermediates/pre-dexed/debug/bugly_crash_release_8264283122641e716052dbf3b16a59ac87f3428e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/PersonalData/Caches/android/build-cache/98ff3fbc4ac02494ff031388719b29a2d89e4826/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2442771a5590dd4eb4bce00c2e9dca9e22e4c963">
+        <dex dex="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/build/intermediates/pre-dexed/debug/classes_8d4a20e3d0b2ab36044be045a22225efb67bdc09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/PersonalData/Caches/android/build-cache/8a84a845df080a92f195e18abe4b96e5fa97a760/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="233f60a165ae622c8b36731502ebbda0f65e1930">
+        <dex dex="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/build/intermediates/pre-dexed/debug/classes_381e9269e16208406d024fd1a013d79812738f2e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/PersonalData/Caches/android/build-cache/cffc65eca895234be2c6bfceee21a4cd6774b7bb/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f428e2fbc9ed0b297e3a3f420e51e6982f66822d">
+        <dex dex="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/build/intermediates/pre-dexed/debug/classes_ff8be9bd1caead5df6ff52b06d7bfcdaedb4c9f5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/PersonalData/Caches/android/build-cache/47782b2d45e3b63cd4b42ed875716a3c6b8c806d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/build/intermediates/pre-dexed/debug/classes_d6152385ccb796b099770d4c65392cba8ef0a31e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/PersonalData/Caches/android/build-cache/b689aabd433b63842b7aa31c032c0a228b8be2b2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="58b12bdb21a84f22e0dc3b047aeceb0a546b1b44">
+        <dex dex="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/build/intermediates/pre-dexed/debug/classes_1ea88d73ad6edbd7000ac8f9d79d3d3084b339b7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/libs/beauty.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7bf050c0e4e08f846855cd3cfb25638db5395fe3">
+        <dex dex="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/build/intermediates/pre-dexed/debug/beauty_e7271fb28ee4e42395618766185519cdc76c0c38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/PersonalData/Caches/android/build-cache/122896fd43e549ff5b0310110f6cd98bf723b8c4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a37fc31c5ceeaa4532a37358add1b189d8db4af1">
+        <dex dex="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/build/intermediates/pre-dexed/debug/classes_80a79d2a703aa055e7c96aa9840daf038b07869c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/PersonalData/Caches/android/build-cache/027bc004fbcf376b918f6eb2c2a86f03a65be8bf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7efef32744ca4a436492d5cf28c08698cc2af256">
+        <dex dex="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/build/intermediates/pre-dexed/debug/classes_550940decae6958570b85ded1c36c2c0fc9b465d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/PersonalData/Caches/gradle/caches/modules-2/files-2.1/android.arch.core/common/1.0.0/a2d487452376193fc8c103dd2b9bd5f2b1b44563/common-1.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a2d487452376193fc8c103dd2b9bd5f2b1b44563">
+        <dex dex="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/build/intermediates/pre-dexed/debug/common-1.0.0_95fc80e0508c98d1f141b5daa80e8a83f989b131.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/PersonalData/Caches/android/build-cache/39d319fabc3ed04a1acdc9660f5435800ee7537a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="508f50705b4fde51a16259f29c854201a3044516">
+        <dex dex="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/build/intermediates/pre-dexed/debug/classes_b49e1b58bfc041868ca87fb161778496b1b7c574.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/PersonalData/Caches/android/build-cache/c614d49a009a563d259d7cf1be72080e246f67d1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6f4138a4e065826cb044d49faea4cfd7191773d1">
+        <dex dex="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/build/intermediates/pre-dexed/debug/classes_c7bcc189661c5c9ea0121313bf210b4281f6f69a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/libs/youme_voice_engine.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ba8248d47765609ba830c650d9332693c6f7d38a">
+        <dex dex="/Volumes/Data/Project/git/videoSDK/SDKTest/androidSampleNew/app/build/intermediates/pre-dexed/debug/youme_voice_engine_51c51bae3838b7b7b9fcb912b3460fe7b06c081b.jar" />
+    </item>
+
+</items>

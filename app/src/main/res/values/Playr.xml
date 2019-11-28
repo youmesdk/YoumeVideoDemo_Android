@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Player0" type="id"></item>
+    <item name="Player1" type="id"></item>
+    <item name="Player2" type="id"></item>
+    <item name="Player3" type="id"></item>
+    <item name="Player4" type="id"></item>
+    <item name="Player5" type="id"></item>
+    <item name="Player6" type="id"></item>
+    <item name="Player7" type="id"></item>
+    <item name="Player8" type="id"></item>
+    <item name="Player9" type="id"></item>
+    <item name="Player10" type="id"></item>
+    <item name="Player11" type="id"></item>
+
+
+
+
+</resources>

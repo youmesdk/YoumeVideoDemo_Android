@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_video_capturer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="im.youme.video.sample2.VideoCapturerActivity">
+
+    <LinearLayout
+        android:id="@+id/RecyclerViewParent"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <im.youme.video.videoRender.PercentFrameLayout
+                android:id="@+id/PercentFrameLayout0"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <com.youme.voiceengine.video.SurfaceViewRenderer
+                    android:id="@+id/SurfaceViewRenderer0"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    android:onClick="onVideoViewClick" />
+            </im.youme.video.videoRender.PercentFrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <im.youme.video.videoRender.PercentFrameLayout
+                android:id="@+id/PercentFrameLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <com.youme.voiceengine.video.SurfaceViewRenderer
+                    android:id="@+id/SurfaceViewRenderer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:visibility="invisible"
+                    android:onClick="onVideoViewClick" />
+
+            </im.youme.video.videoRender.PercentFrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <im.youme.video.videoRender.PercentFrameLayout
+                android:id="@+id/PercentFrameLayout2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <com.youme.voiceengine.video.SurfaceViewRenderer
+                    android:id="@+id/SurfaceViewRenderer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    android:onClick="onVideoViewClick" />
+
+            </im.youme.video.videoRender.PercentFrameLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="3"
+        android:id="@+id/linearLayout">
+            <TextView
+                android:id="@+id/state"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#e4d08d"
+                android:gravity="center_vertical|left"
+                android:text="control panel" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_doubleCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_weight="2"
+        android:text="开启双流"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <com.youme.voiceengine.video.SurfaceViewRenderer
+        android:id="@+id/remote_video_view_twelve1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/transparent"
+        android:layout_alignParentLeft="true">
+
+    </com.youme.voiceengine.video.SurfaceViewRenderer>
+
+    <im.youme.video.sample2.FocusView
+        android:id="@+id/camera_focus"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:visibility="invisible" />
+
+    <RelativeLayout
+        android:id="@+id/vt_toolbar_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:padding="5dp"
+        android:background="@android:color/transparent">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_weight="6"
+            android:background="@android:color/transparent">
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/vt_btn_camera"
+                style="@style/RoundImageButtonStyle"
+                android:src="@drawable/vt_btn_camera"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/vt_btn_mic"
+                style="@style/RoundImageButtonStyle"
+                android:src="@drawable/vt_btn_mic"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/vt_btn_speaker"
+                style="@style/RoundImageButtonStyle"
+                android:src="@drawable/vt_btn_speaker"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/vt_btn_switch_camera"
+                style="@style/RoundImageButtonStyle"
+                android:src="@mipmap/vt_btn_camera_switch"/>
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/vt_btn_Render_Rotation"
+                style="@style/RoundImageButtonStyle"
+                android:src="@mipmap/vt_btn_render_rotation"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+
+
+            <ImageButton
+                android:id="@+id/vt_btn_close"
+                style="@style/RoundImageButtonStyle"
+                android:src="@mipmap/vt_btn_close"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="开始录屏"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="70dp"
+        android:id="@+id/vt_btn_share" />
+
+    <TextView
+        android:id="@+id/avtip"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="120dp"
+        android:background="@android:color/transparent"
+        android:gravity="left"
+        android:text=""
+        android:textColor="@android:color/holo_orange_dark" />
+        android:visibility="visible" />
+</RelativeLayout>
