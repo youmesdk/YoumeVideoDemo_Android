@@ -260,7 +260,7 @@ public class AudioRecorderSample
             try {
                 while ((!mIsLoopExit) && (!Thread.interrupted())) {
                     byte[] buff = audioBufferQueue.take();
-                    NativeEngine.inputAudioFrame(buff, buff.length, System.currentTimeMillis());
+                    NativeEngine.inputAudioFrame(buff, buff.length, System.currentTimeMillis(),2,true);
                 }
             }catch (Exception e) {
                 Log.e(TAG, "Recorder Copy thread exit!");
@@ -383,7 +383,7 @@ public class AudioRecorderSample
 //                Log.d("OnAudioRecorderRefresh",""+audioBufferQueue.remainingCapacity());
                 audioBufferQueue.put(copyBuff);
             }else {
-                NativeEngine.inputAudioFrame(audBuf, audBuf.length, System.currentTimeMillis());
+                NativeEngine.inputAudioFrame(audBuf, audBuf.length, System.currentTimeMillis(),2,true);
             }
         } catch (Exception e) {
             e.printStackTrace();

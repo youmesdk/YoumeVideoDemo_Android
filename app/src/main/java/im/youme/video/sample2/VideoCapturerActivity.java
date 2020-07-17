@@ -239,6 +239,8 @@ public class VideoCapturerActivity extends Activity implements YouMeCallBackInte
         }
     }
 
+
+
     @Override
     protected void onDestroy() {
         super.onDestroy();
@@ -453,7 +455,7 @@ public class VideoCapturerActivity extends Activity implements YouMeCallBackInte
     }
 
     @Override
-    public void onVideoPreDecode(String userId, byte[] data, int dataSizeInByte) {
+    public void onVideoPreDecode(String userId, byte[] data, int dataSizeInByte,long l) {
         // Log.i(TAG, "onVideoPreDecode:" + userId);
         if (DEBUG) {
             if (mPreDecodeFos != null) {
@@ -741,7 +743,7 @@ public class VideoCapturerActivity extends Activity implements YouMeCallBackInte
         }
 
         //设置视频小流分辨率
-        api.setVideoNetResolutionForSecond(child_width, child_height);
+        //api.setVideoNetResolutionForSecond(child_width, child_height);
         api.setVideoFpsForShare(15);
         api.setVideoNetResolutionForShare(720, 1280);
 
@@ -785,8 +787,8 @@ public class VideoCapturerActivity extends Activity implements YouMeCallBackInte
           mAudioManager.setParameters("mic_group= handhold-amic");
         */
         //api.setReleaseMicWhenMute(true);
-        api.joinChannelSingleMode(local_user_id, currentRoomID, YouMeConst.YouMeUserRole.YOUME_USER_HOST, true);
-
+        //api.joinChannelSingleMode(local_user_id, currentRoomID, YouMeConst.YouMeUserRole.YOUME_USER_HOST, true);
+        api.joinChannelSingleMode( local_user_id,currentRoomID , YouMeConst.YouMeUserRole.YOUME_USER_HOST, true);
     }
 
     /**
